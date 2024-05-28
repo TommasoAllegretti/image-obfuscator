@@ -1,0 +1,32 @@
+{
+  "name": "image-obfuscator",
+  "version": "0.0.1",
+  "description": "A simple library to hide your website's images from public users.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommasoAllegretti/image-obfuscator.git"
+  },
+  "keywords": [
+    "images",
+    "security"
+  ],
+  "author": "Tommaso Allegretti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TommasoAllegretti/image-obfuscator/issues"
+  },
+  "homepage": "https://github.com/TommasoAllegretti/image-obfuscator#readme",
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "prettier": "^3.2.5",
+    "tslint-config-prettier": "^1.18.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
